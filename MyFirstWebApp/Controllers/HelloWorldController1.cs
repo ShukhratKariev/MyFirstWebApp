@@ -1,0 +1,18 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace MyFirstWebApp.Controllers
+{
+    public class HelloWorldController1 : Controller
+    {
+        public IActionResult Index()
+        {
+            return View(); 
+        }
+
+
+        public string Welcome()
+        {
+            return "This is the Welcome action method...";
+        }
+    }
+}
